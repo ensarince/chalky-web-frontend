@@ -1,0 +1,13 @@
+@import "./index.scss";
+
+body::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: $chalky_white;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: $chalky_soft;
+  }

@@ -1,0 +1,19 @@
+sooo we are not on our own
+here are the things to do maybe 
+
+-> Customize everything(
+    # AuthModal
+    # Dashboard Left(Chat & Chat components)
+    # Buttons
+    # Scrollbar
+)
+
+-> Profile Page(
+    # Personal Profile
+    # why matches array go crazy?
+    # Users Profile if u are matched
+)
+
+-> Cards have some weird issues
+-> Make messages faster(Pusher?)
+-> Location functionality

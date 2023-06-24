@@ -1,0 +1,87 @@
+@import "../index.scss";
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: $chalky_white
+}
+
+.profileSection{
+    width: 30rem;
+    height: 40rem;
+    border-radius: 3%;
+    background-color: rgba(246, 245, 244, 0.9);
+}
+
+.profileSection img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 3% 3% 0% 0%;
+}
+
+.profileInfo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profileInfo p {
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .profileInfo p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .profileInfo p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profileInfo p:not(:first-child) {
+    font-size: 18px;
+  }
+  
+  .profileInfo p:last-child {
+    color: #666666;
+  }
+
+  .btn__help {
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    cursor: pointer;
+  }
+  
+  .btn__help:hover {
+    opacity: 1;
+    transform: scale(1.3);
+    color: $chalky_red; 
+  }
+  
+  .btn__help:focus {
+    isolation: isolate;
+    outline-offset: 2px;
+  }
+
+  .imgContainer img{
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    object-fit: cover; 
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer;
+  }
+    
+  

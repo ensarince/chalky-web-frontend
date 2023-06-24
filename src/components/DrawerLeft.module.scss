@@ -1,0 +1,49 @@
+@import "../index.scss";
+
+.MuiDrawer__fabrik {
+    position: absolute;
+    left: 0;
+    transform: translateY(-60%);
+    height: 100%;
+    max-width: 30%;
+    opacity: 0.9;
+    background: $chalky_pink;
+  }
+  
+  .div__slide12Drawer{
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30%;
+    width: 100%;
+    height: 100%;
+    color: $chalky_white;
+    background: $chalky_red;
+  }
+
+  .btn__help {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    left: 2%;
+    z-index: 100;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    cursor: pointer;
+  }
+  
+  .btn__help:hover {
+    opacity: 1;
+    transform: scale(1.3);
+    color: $chalky_soft; 
+  }
+  
+  .btn__help:focus {
+    isolation: isolate;
+    outline: 1px solid $chalky_soft;
+    outline-offset: 2px;
+  }
+  
+  
